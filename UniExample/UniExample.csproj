@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Real-framework consumer. NOT in PatcherFixtures.slnx: it needs the pinned
+       UniModFramework clone produced by tools/patcher-env.cs (unimod-sha option). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Nullable>disable</Nullable>
+    <RestoreAdditionalProjectSources>
+      https://nuget-modding.resonite.net/v3/index.json;
+    </RestoreAdditionalProjectSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\.test-env\unimod\UniModFramework.BepisLoader\UniModFramework.BepisLoader.csproj" />
+  </ItemGroup>
+</Project>

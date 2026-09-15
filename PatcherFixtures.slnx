@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="DerivedAttributePatcher/DerivedAttributePatcher.csproj" />
+  <Project Path="DirectPatcher/DirectPatcher.csproj" />
+  <Project Path="EarlyPatcher/EarlyPatcher.csproj" />
+  <Project Path="FrameworkPatcher/FrameworkPatcher.csproj" />
+  <Project Path="IndirectBase/IndirectBase.csproj" />
+  <Project Path="IndirectPatcher/IndirectPatcher.csproj" />
+  <Project Path="LateBase/LateBase.csproj" />
+  <Project Path="MiniFramework/MiniFramework.csproj" />
+  <Project Path="PlainPlugin/PlainPlugin.csproj" />
+</Solution>
